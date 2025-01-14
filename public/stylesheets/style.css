@@ -1,0 +1,79 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #0d6efd;
+}
+
+.dvCaixas{
+  width: 100%;
+  text-align: center;
+}
+
+.dvCaixas div{
+  display: inline-block;
+  text-align: left;
+  background-color: #cfcfcf;
+  width: 33%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.dvCaixas div:nth-child(1){
+  background-color: #0d6efd;
+}
+
+.dvCaixas div:nth-child(2){
+  background-color: #28a745;
+}
+
+.dvCaixas div:nth-child(3){
+  background-color: #dc3545;
+}
+
+.dvSearch {
+  margin-top: 20px;
+}
+
+.dvSearch div, .dvSearch form input, .dvSearch form button{
+  display: inline-block;
+}
+
+.dvSearch form input{
+  width: 80%;
+}
+
+.dvSearch form button{
+  width: 19%;
+}
+
+.dvSearch div:nth-child(1){
+  width: 80%;
+}
+
+.dvSearch div:nth-child(2){
+  width: 19%;
+  text-align: right;
+}
+
+.dvTabela {
+  margin-top: 20px;
+}
+
+.receita-bar {
+  background-color: #28a745;
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+}
+
+.despesa-bar {
+  background-color: #dc3545;
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+}
+
+
