@@ -51,7 +51,7 @@
           <% caixas.forEach(caixa => { %>
             <tr>
               <td><%= caixa.tipo %></td>
-              <td>R$ <%= formataValor(caixa.valor) %></td>
+              <td><%= formataValor(caixa.valor) %></td>
               <td><%= caixa.status === 1 ? 'Receita' : 'Despesa' %></td>
               <td>
                 <div class="<%= caixa.status === 1 ? 'receita-bar' : 'despesa-bar' %>"></div>
