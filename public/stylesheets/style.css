@@ -62,6 +62,14 @@ a {
   margin-top: 20px;
 }
 
+.txt-alinhado-direita{
+  text-align: right;
+}
+
+.txt-alinhado-centro{
+  text-align: center;
+}
+
 .receita-bar {
   background-color: #28a745;
   width: 100%;

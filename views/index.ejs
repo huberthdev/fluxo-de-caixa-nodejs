@@ -42,8 +42,8 @@
         <thead class="table-light">
           <tr>
             <th scope="col">Tipo</th>
-            <th scope="col">Valor</th>
-            <th scope="col">Status</th>
+            <th scope="col" class="txt-alinhado-direita">Valor</th>
+            <th scope="col" class="txt-alinhado-centro">Status</th>
             <th scope="col"></th>
           </tr>
         </thead>
@@ -51,8 +51,8 @@
           <% caixas.forEach(caixa => { %>
             <tr>
               <td><%= caixa.tipo %></td>
-              <td><%= formataValor(caixa.valor) %></td>
-              <td><%= caixa.status === 1 ? 'Receita' : 'Despesa' %></td>
+              <td class="txt-alinhado-direita"><%= formataValor(caixa.valor) %></td>
+              <td class="txt-alinhado-centro"><%= caixa.status === 1 ? 'Receita' : 'Despesa' %></td>
               <td>
                 <div class="<%= caixa.status === 1 ? 'receita-bar' : 'despesa-bar' %>"></div>
               </td>
